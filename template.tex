@@ -1,0 +1,222 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\usepackage{amsmath}
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{PicRoy.jpg} % Profile picture
+
+\cvname{Roilhi Ibarra} % Your name
+\cvjobtitle{PhD Student/MSc in\newline
+Electronics \& \newline Telecommunications} % Job title/career
+
+\cvdate{17 February 1989} % Date of birth
+\cvaddress{Neptuno 182-2 CP 22860 \newline
+Ensenada BC, Mexico} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+52 6461931633} % Phone number
+\cvsite{} % Personal website
+\cvmail{roilhi@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{I am a current PhD student in Electronics and Telecommunications Engineering focused on digital signal processing of heart sounds using sparse, predictive coding and Machine learning methods.
+I have experience in simulating communications systems, especially source codification using LZW methods for MIMO wireless systems and low-rate networks. I have also experience in simulating data mining and machine learning methods for trainning and classifying heart sound signals for diagnosis applications (pathological states detection).  
+
+I have worked as part-time teacher in algebra, basic and analytic geometry (all subjects in English for bilingual students)  and also basic conversational French for high school students.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Math teaching/5.6},{Data Analysis/5.2},{Team management, collaboration/5.6},Communication systems management/4.1}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+ 
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+Digital signal processing methods for classification, compression, coding and analysis of audio signals (heart sounds), Machine learning. Divulgation of science and technology, teaching for efficient methods for Mathematics and informatics. 
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Since 2015}{Ph.D. {\normalfont Student in Electronics and Telecommunications}}{\newline \href{http://www.cicese.edu.mx}{CICESE Research Center}}{\emph{Design of Techniques for the Analysis and Processing of Cardiac Sound Signals.}}
+	
+	\twentyitem{2012-2014}{M.Sc. Electronics and Telecommunications}{\href{http://www.cicese.edu.mx}{CICESE Research Center}}{Master in Science. \emph{Design of an Encoder for Cardiac Sound Signals Transmission over Low-data Rate Networks.}}
+	
+	\twentyitem{2007-2012}{B.Eng. Electronics and Telecommunications}{\newline \href{http://www.uaz.edu.mx}{Autonomus University of Zacatecas (UAZ)}}{Barchelor in Engineering. \emph{LZW Compression in a MIMO Wireless \mbox{communications} System.}}
+	
+	\twentyitem{Mar-Aug \\2018}{Internship PhD student}{\href{https://team.inria.fr/panama/team-members/}{INRIA Rennes France}}{Doctoral internship participation at INRIA Research Center Rennes, France joining PANAMA team. Working on signal processing and data mining methods for cardiac diagnosis from heart sound signals.}
+	
+	\twentyitem{Aug-Dec \\2011}{B. Eng., Study Abroad Participant}{\href{http://umanitoba.ca}{University of Manitoba}}{Participation in the exchange program PROMESAN 2011 as abroad student. Courses taken: \emph{Biomedical Instrumentation and Signal \mbox{Processing}, Antennas.}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+
+
+\section{Research}\\
+\begin{twenty}
+    \twentyitem{Oct 2018}
+    {International Symposium on Medical Information and Analysis}
+    {\newline Mazatlan Sinaloa}
+    {\href{https://hal.inria.fr/hal-01935058/}{A benchmark of heart sound classification systems based on sparse decompositions}}
+    \twentyitem{Aug 2017}
+    {Computers in Biology and Medicine}
+    {\newline Elsevier, Ltd Publishers}
+    {\href{https://www.sciencedirect.com/science/article/pii/S0010482517302603}{\emph{Design and evaluation of a Parametric Model for Heart Sounds}}}
+	\twentyitem
+    	{Nov 2015}
+        {$\textrm{49}^{\text{th}}$ Asilomar Conference on Signals, Systems and Computers}
+        {\newline Pacific Grove California, USA}
+        {\href{https://ieeexplore.ieee.org/abstract/document/7421237} {\emph{A parametric Model for Heart Sounds}}}
+        \twentyitem
+    	{Oct 2015}
+         {XXXVIII National Conference of Biomedical Engineering}
+        {\newline Mazatlan Sinaloa, Mexico}
+        {\emph{Desarrollo de un Codificador para Audio Cardiaco. }}
+         \twentyitem
+       {Oct 2015}
+       {ENC'2015: Clinical Computation and Medical Informatics Workshop}
+       {\newline Ensenada Baja California, Mexico}
+       {\emph{Reconstrucci\'on de se\~nales de Audio Cardiaco Mediante Matching \mbox{Pursuit.}}
+       }    
+        \twentyitem 
+       {Aug 2013}
+       {DIFU100ci@ Scientific Diffusion Magazine}
+        {Zacatecas, Mexico}        
+        {\emph{Compresi\'on LZW en un sistema de comunicaciones MIMO inal\'ambrico.} }
+\end{twenty}
+\section{Products}
+\\
+{Aplicaci\'on Inform\'atica para la Evaluaci\'on Subjetiva de la Calidad de la Compresi\'on de Se\~nales de Audio. Instituto Nacional de Derecho de Autor. Registro: 03-2016-053110321100-01}
+% \begin{twentyshort} % Environment for a short list with no descriptions
+% 	\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
+% 	\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+% 	\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+% 	\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+% 	\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+% 	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+% \section{Awards}
+
+% \begin{twentyshort} % Environment for a short list with no descriptions
+% 	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+% 	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+% 	%\twentyitemshort{<dates>}{<title/description>}
+% \end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+\newpage
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+ \twentyitem
+   		{2016-2018}
+        {Part-time teacher}
+        {\href{http://www.xochicalco.edu.mx} {Xochicalco University}}
+        {Part-time teacher for bilingual high school students in algebra, pure and analytical geometry, numerical analysis (English). Teacher of basic French and coaching for the Mexican Olympiads of Mathematics.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Other information}
+
+\subsection{Technical Skills}
+\begin{itemize}
+\item Programming languages: MATLAB, Python, C. 
+\item Hardware: PIC microcontrollers (PIC 18F4550 microchip), FPGA's (Xilinx ISE Spartan-
+II), PLC's (s7-200 Siemmens)
+\end{itemize}
+\subsection{Languages}
+\begin{itemize}
+\item Advanced level of English (550 points TOEFL test).
+\item Basic French (Level A1)
+\end{itemize}
+
+\subsection{Outdoor activities}
+\begin{itemize}
+\item  Musical skills: guitar, bass and sousaphone player
+\item Basic knowledge for reading and interpreting musical sheets. 
+\item Running 
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
